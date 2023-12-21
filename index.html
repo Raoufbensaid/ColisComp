@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ColisComp</title>
+    <link rel="Coliscomp Icon" type="png" href="./images/logos.png">
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,40 +13,41 @@
 
         <div class="form-container register-container">
             <form action="#">
-                <h1>Register hire.</h1>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button>Register</button>
-                <span>or use your account</span>
+                <h1>Inscription</h1>
+                <input type="text" placeholder="Nom" required>
+                <input type="text" placeholder="Prénom" required>
+                <input type="date" id="date_naissance" name="date_naissance" required>
+                <input type="tel" id="numero_telephone" name="numero_telephone" placeholder="+33 (0) 6..." required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Mot de passe" required>
+                <button>Inscrire</button>
+                <span>ou</span>
                 <div class="social-container">
                     <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
                     <a href="#" class="social"><i class="lni lni-google"></i></a>
-                    <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
                 </div>
             </form>
         </div>
 
         <div class="form-container login-container">
             <form action="#">
-                <h1>Login hire.</h1>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <h1>Connexion</h1>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Mot de passe" required>
                 <div class="content">
-                    <div class="checkbox">
+                    <!-- <div class="checkbox">
                         <input type="checkbox" name="checkbox" id="checkbox">
                         <label>Remember me</label>
-                    </div>
+                    </div> -->
                     <div class="pass-link">
-                        <a href="#">Forget password?</a>
+                        <a href="#"><u>Mot de passe oublié?</u></a>
                     </div>
                 </div>
-                <button>Login</button>
-                <span>or use yout account</span>
+                <button>Connexion</button>
+                <span>ou</span>
                 <div class="social-container">
                     <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
                     <a href="#" class="social"><i class="lni lni-google"></i></a>
-                    <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
                 </div>
             </form>
         </div>
@@ -53,16 +55,16 @@
         <div class="overlay-container">
             <div class="overlay">
                 <div class="overlay-panel overlay-left">
-                    <h1 class="title">Hello <br> friends</h1>
-                    <p>if You have an account, login here and have fun</p>
-                    <button class="ghost" id="login">Login
+                    <h2 class="title">Coliscomp la solution de livraison sûre, rapide et abordable pour tous.</h2>
+                    <p>Si vous avez un compte, connectez-vous ici et amusez-vous</p>
+                    <button class="ghost" id="login">Connexion
                         <i class="lni lni-arrow-left login"></i>
                     </button>
                 </div>
                 <div class="overlay-panel overlay-right">
-                    <h1 class="title">Strat your <br> journey now</h1>
-                    <p>if you don't have an acount yet, join us and start your journet.</p>
-                    <button class="ghost" id="register">Register
+                    <h1 class="title">Commencez votre trajet maintenant !</h1>
+                    <p>Si vous n'avez pas encore de compte, rejoignez-nous et commencez votre trajet.</p>
+                    <button class="ghost" id="register">Inscription
                         <i class="lni lni-arrow-right register"></i>
                     </button>
                 </div>
