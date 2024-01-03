@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ColisComp</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="icon" href="../images/icon.png">
+</head>
+<body>
+	<div class="navbar">
+		<a href="../index.html"><img src="../images/logo.png" class="logo"></a>
+		<ul>
+			<li><a href="#"><i class="fa-solid fa-chevron-down"></i>Commerçant</a></li>
+			<li><a href="#"><i class="fa-solid fa-chevron-down"></i>Particulier</a></li>
+			<li><a href="#"><i class="fa-solid fa-chevron-down"></i>Transporteur</a></li>
+			<li><a href="#"><i class="fa-solid fa-box"></i>Expédier ou recevoir un colis</a></li>
+			<li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Voir les annonces</a></li>
+			<li><a href="#"><i class="fa-solid fa-user"></i>Mon compte</a></li>
+		</ul>
+	</div>
+	<div class="container" id="container">
+        <div class="form-container sign-in">
+            <form>
+                <h1>Connexion</h1></br>
+                <input type="email" placeholder="Adresse email">
+                <input type="password" placeholder="Mot de passe">
+                <a href="#">Forget Your Password?</a>
+                <button>Suivant</button>
+                <span>- ou -</span>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </form>
+        </div>
+        <div class="form-container sign-up">
+            <form>
+                <h1>Inscription</h1></br>
+                <input type="email" placeholder="Adresse email">
+                <input type="password" placeholder="Mot de passe">
+                <input type="password" placeholder="Confirmer le mot de passe">
+                <button1>Suivant</button1>
+                <span>- ou -</span>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-right">
+                    <h1>Commencez votre trajet maintenant !</h1>
+                    <p>Rejoignez notre communité en cliquant ici pour créer votre compte</p>
+                    <button class="hidden" id="register">Inscription</button>
+                </div>
+                <div class="toggle-panel toggle-left">
+                    <h1>Continuez vos trajets d'où vous avez laisser.</h1>
+                    <p>Déjà membre de notre communité, cliquez ici pour vous connecter</p>
+                    <button class="hidden" id="login">Connexion</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+    <footer>
+        <p>&copy; 2024 ColisComp. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
