@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ColisComp</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../css/style_trafic.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="icon" href="../images/icon.png">
+</head>
+<body>
+    <div class="navbar">
+		<a href="../index.html"><img src="../images/logo.png" class="logo"></a>
+		<ul>
+			<li><a href="#"><i class="fa-solid fa-chevron-down"></i>Commerçant</a></li>
+			<li><a href="#"><i class="fa-solid fa-chevron-down"></i>Particulier</a></li>
+			<li><a href="#"><i class="fa-solid fa-chevron-down"></i>Transporteur</a></li>
+			<li><a href="tarif.html"><i class="fa-solid fa-box"></i>Expédier ou recevoir un colis</a></li>
+			<li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Voir les annonces</a></li>
+			<li><a href="login.html"><i class="fa-solid fa-user"></i>Mon compte</a></li>
+		</ul>
+	</div>
+    <p class="fst-italic">Prix de la livraison </p>
+    <div class="card">
+        <p>Ce prix est basé sur les annonces similaires livrés sur ColisComp et sur les détails de votre anonce .</p>
+    </div>
+	<div class="counter-container">
+        <input type="text" id="counterValue" value="0" readonly>
+        <button id="increaseBtn">+</button>
+		<button id="decreaseBtn">-</button>
+    </div>
+	<p class="fw-light">Prix recommandé : ..$ <br>
+	    Votre prix est dans la moyenne.
+	</p>
+  <div class="Poursuivre" >
+	<button class="btn btn-primary" type="button">Poursuivre</button>
+  </div>
+  <div class="card-body ">
+    <p class="card-text">Estimer le prix</p>
+    <label for="choix mt-3">Distance</label>
+    <select class="form-control" id="choix" name="choix">
+        <option value="option1">0 a 50km</option>
+        <option value="option2">50 a 100 km</option>
+		<option value="option3">+ de 500 km</option>
+    </select>
+    <label for="choix mt-3">Taille de colis </label>
+		<select class="form-control " id="choix" name="choix">
+		  <option value="option1">s</option>
+		  <option value="option2">m</option>
+		  <option value="option3">l</option>
+		  <option value="option4">xl</option>
+		  <option value="option4">xxl</option>
+		</select>
+		<label for="variable-input"> Prix :</label>
+		<input type="text" class="form-control" id="variable-input" readonly>
+		<div class="form-control mt-3" id="zoneTexte" readonly>
+			Ce prix est une estimation. Vous serez libre de choisir le prix que vous souhaitez lors de la publication de votre annonce.
+		</div>
+	</div>
+</div>
+<script src="../js/script.js"></script>
+<footer>
+    <p>&copy; 2024 ColisComp. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
