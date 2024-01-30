@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  .navbar {
+    background-color: white;
+    height: 50px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #030303; 
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    width: 50px; /* Ajustez la taille du logo selon vos besoins */
+  }
+  
+  .logo-container img:last-child {
+    width: 150px;
+    margin-top: 10px;
+    height: 20px; /* Ajustez la taille de l'image du nom du site selon vos besoins */
+  }
+  
+  .account-container img {
+    width: 30px; /* Ajustez la taille de votre icône de compte selon vos besoins */
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .account-container {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+  }
+  .additional-element {
+    background-color: orange; /* Fond orange */
+    padding: 10px;
+    margin-left: -900px;
+    border-radius: 10px; /* Espace intérieur */
+    display: flex;
+    align-items: center;
+  }
+  
+  .additional-element p {
+    margin: 0;
+    color: white; /* Couleur du texte */
+  }
+  .account-container p {
+    margin: 0;
+    vertical-align: middle;
+  }
+  .back-link {
+    margin: 10px;
+  }
+  
+  .back-link p a {
+    color: blue;
+    text-decoration: none;
+  }
+
+.tarifs {
+  display: flex;
+  align-items: center;
+  color: rgb(5, 5, 5);
+  padding: 5px;
+}
+.tarifs p:first-child{
+    margin-left: 40px;
+  }
+.tarifs p:last-child{
+  margin-left: 200px;
+}
+.orange-square {
+    width: 50%; /* Largeur dépassant la moitié de la page */
+    height: 480px; /* Hauteur de 100% de la hauteur de la vue */
+    background-color: orange;
+    position: absolute;
+    top: 50p;
+    left: 2%; /* Centre le carré horizontalement */
+    /* Aligne le texte en colonne *//* Centre le texte horizontalement */
+    padding: 10px; /* Ajout de rembourrage à l'intérieur du carré */
+}
+.square-text {
+    color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    font-weight: 600;
+    /* Ajustez la taille de la police selon vos besoins */
+    /* Marge entre les lignes de texte */
+  }
+  .square-text p:first-child{
+    margin-left: 5px;
+  }
+  .square-text p:last-child{
+    margin-left: 60px;
+  }
+ 
+ input {
+    color: black;
+    font-size: 16px; /* Ajustez la taille de la police selon vos besoins */
+    margin: 5px 0; /* Marge entre les labels */
+    width: 80px;
+    height: 30px; /* Largeur du premier label */
+    border-radius: 5px;
+  }
+  
+  input:last-child {
+    margin-left: 40px;
+    width: 300px; /* Largeur du deuxième label */
+  }
+  .size-text ,.weight-text ,.photo-text{
+    color: black;
+    font-size: 16px; /* Ajustez la taille de la police selon vos besoins */
+    margin: 10px; /* Marge entre le texte et les inputs */
+  }
+  .size-text{
+    margin-left: 5px;
+  }
+
+  label {
+    color: white;
+    font-size: 14px; /* Ajustez la taille de la police selon vos besoins */
+    margin-right: 15px; /* Marge entre les boutons radio */
+  }
+  .radio-group {
+    display: flex;
+    align-items: center;
+    border: none;
+
+  }
+  .group input{
+    border: none;
+  }
+  input[type="radio"] {
+    transform: scale(0.5); /* Ajustez la valeur pour changer la taille du bouton radio */
+  }
+  
+.radio-group label{
+    margin-right: 1px;
+    margin-left: -25px;
+}
+.custom-table {
+    width: 50%;
+    margin-top: 20px;
+    background-color: bisque;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  }
+  
+  td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .small-cell {
+    width: 5px; /* Ajustez la largeur de la première colonne */
+  }
+  
+  .medium-cell {
+    width: 20px; /* Ajustez la largeur de la deuxième colonne */
+  }
+  
+  .large-cell {
+    width: 30px; /* Ajustez la largeur de la troisième colonne */
+  }
+  
+  .photo-section {
+    display: grid;
+    background-color: dimgray;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .photo-section p {
+    color: white;
+    font-size: 16px; /* Ajustez la taille de la police selon vos besoins */
+    padding:2px;
+    align-content: space-between;
+  }
+  .photo-section p:first-child{
+   
+    margin-left: 10px;
+  }
+  .photo-section p:last-child{
+    margin-top: -10px;
+    margin-left: 110px;
+  }
+  .white-section {
+    width: 94%; /* Ajustez la largeur selon vos besoins */
+    height: 30px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px; /* Marge entre la section blanche et le carré orange */
+    position: relative;
+    left: 0; /* Positionne la section blanche à gauche de la page */
+    border: 1px dotted #333; /* Bordure pointillée avec une couleur définie (#333 pour le gris foncé) */
+  }
+  .white-section i {
+    font-size: 24px; /* Ajustez la taille de l'icône selon vos besoins */
+    margin-right: 10px; /* Marge à droite de l'icône */
+  }
+  .white-section p {
+    margin-top: -25px;
+    margin-left: 30px; /* Supprimer la marge par défaut du paragraphe */
+  }
+  .white-section p:first-child{
+    color:darkblue;
+  }
+  .white-section p:last-child{
+    margin-top: -15px;
+    font-size: 10px;
+    margin-left: 70px; /* Supprimer la marge par défaut du paragraphe */
+  }
+  .terms-section {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 4px 4px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre en bas et à droite */
+    padding: 20px;
+    margin-top: 10px; /* Marge entre la section des conditions générales et la section précédente */
+    margin-left: 1000px;
+  }
+  
+  .terms-section {
+
+    color: black; /* Couleur du texte */
+  }
+  .point_section{
+    display: flex;
+    align-items: center;
+  }
+  .terms-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .terms-section li {
+
+    margin-bottom: 5px; /* Espacement entre les éléments de la liste */
+  }
+  
+  .orange-button,.blue-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 160px;
+    margin-left: 680px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .blue-button {
+    background-color: blue;
+    margin-top: 100px;
+    margin-left: 500px;
+  }
+  .tarifs img{
+   margin-left: -22px;
+}
+.tarif-text{
+  margin-left: 110px;
+}
