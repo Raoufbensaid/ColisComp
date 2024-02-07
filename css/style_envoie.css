@@ -245,7 +245,6 @@ body {
   }
   
   .terms-section li {
-
     margin-bottom: 5px; /* Espacement entre les éléments de la liste */
   }
   
@@ -272,11 +271,6 @@ body {
 .tarif-text{
   margin-left: 110px;
 }
-
-
-/* test */
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 body {
 	background: #E3E1E0;
